@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    z-index: 9999; /* High z-index value */
+    margin-top: 15px;
+    background: rgba(0, 0, 0, 0.582);
+    border-radius: 5px;
+}
+
+
+.nav-image img {
+    height: 40px;
+    z-index: 100
+}
+
+.hero-image {
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+}
+
+.hero-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.44;
+    z-index: 1;
+}
+
+.hero-image img {
+    position: relative;
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2; /* Ensures content is above overlay and image */
+    color: white;
+}
+.nav-btn button{
+    font-size: 15px;
+    padding: 10px;
+    background-color: #e50914;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+.nav-btn button:hover{
+    background-color: #b00710;
+    cursor: pointer;
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+    font-weight: 550;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.hero-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.hero-content h4 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+
+.hero-content .input-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.hero-content input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    width: 400px;
+    opacity: 0.8;
+}
+
+.hero-content button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #e50914;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.hero-content button:hover {
+    background-color: #b00710;
+}
+.first img{
+    height: 400px;
+    transform: translate(1000px);
+    border-radius: 50px;
+}
+.first h1{
+    position: relative;
+    top: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    z-index: 100;
+    color: white;
+    text-transform: capitalize;
+    font-size: 50px;
+    margin-bottom: 10px;   
+}
+.first h3{
+    position: relative;
+    top: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    z-index: 100;
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 100;
+}
+.second{
+    margin-bottom: 50px;
+}
+.second img{
+    height: 400px;
+    transform: translate(190px);
+    border-radius: 50px;
+}
+.second h1{
+    position: relative;
+    top: 250px;
+    left: 50%;
+    transform: translateX(10%);
+    width: 80%;
+    z-index: 100;
+    color: white;
+    text-transform: capitalize;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.second h3{
+    position: relative;
+    top: 250px;
+    left: 50%;
+    transform: translateX(10%);
+    width: 80%;
+    z-index: 100;
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 100;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+hr{
+    border: 2px solid darkgray;
+}
+.faq-heading{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-transform: capitalize;
+    margin-top: 50px;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.footer-content{
+    max-width: 140vh;
+    margin: 0 auto;
+    color: white;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.box{
+    background-color:rgb(61, 61, 61);   
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+.box:hover{
+    background-color: gray;
+}
+.lower-footer{
+    max-width: 100vh;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.plateforms{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.lower-footer a {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding: 7px;
+}
+.lower-footer h1{
+    color: white;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+/* General styles for mobile responsiveness */
+@media (max-width: 768px) {
+    /* Navbar adjustments */
+    .navbar {
+        width: 100%; /* Full width on mobile */
+        flex-direction: column; /* Stack items vertically */
+        padding: 15px;
+    }
+    .nav-image img {
+        height: 30px; /* Smaller logo */
+    }
+    .nav-btn button {
+        font-size: 12px;
+        padding: 8px; /* Smaller buttons */
+    }
+
+    /* Hero section adjustments */
+    .hero-image {
+        height: 60vh; /* Reduce height for smaller screens */
+    }
+    .hero-content h1 {
+        font-size: 2.5rem; /* Smaller headline */
+    }
+    .hero-content h3, .hero-content h4 {
+        font-size: 1.2rem; /* Adjust subheadings */
+    }
+    .hero-content .input-container {
+        flex-direction: column; /* Stack inputs and buttons */
+        gap: 10px;
+    }
+    .hero-content input {
+        width: 90%; /* Full width for input */
+    }
+
+    /* First and Second section adjustments */
+    .first img, .second img {
+        height: 200px; /* Reduce image size */
+        transform: none; /* Center images */
+        margin: 0 auto;
+        display: block;
+    }
+    .first h1, .second h1 {
+        font-size: 1.8rem; /* Smaller headlines */
+    }
+    .first h3, .second h3 {
+        font-size: 1rem; /* Smaller subheadings */
+    }
+
+    /* Footer adjustments */
+    .plateforms {
+        flex-direction: column; /* Stack lists vertically */
+        gap: 10px;
+    }
+    .lower-footer {
+        max-width: 90%; /* Constrain width on smaller screens */
+    }
+    .lower-footer h1 {
+        font-size: 20px; /* Adjust footer heading size */
+    }
+    .lower-footer a {
+        font-size: 12px; /* Adjust footer link size */
+    }
+}
+
+/* Additional styles for very small devices (max-width: 480px) */
+@media (max-width: 480px) {
+    /* Navbar adjustments */
+    .navbar {
+        padding: 10px;
+    }
+    .nav-btn button {
+        font-size: 10px;
+        padding: 5px;
+    }
+
+    /* Hero section adjustments */
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+    .hero-content h3, .hero-content h4 {
+        font-size: 1rem;
+    }
+    .hero-content input {
+        width: 100%; /* Full width for extra-small screens */
+    }
+    .hero-content button {
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+
+    /* Footer adjustments */
+    .plateforms {
+        gap: 5px;
+    }
+    .lower-footer h1 {
+        font-size: 18px;
+    }
+    .lower-footer a {
+        font-size: 10px;
+    }
+}
