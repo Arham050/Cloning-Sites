@@ -1,2 +1,2 @@
-# Netflix
-I just made that clone site for my practice purpose.
+# Clone Websites  
+I am just cloning some big websites to enhance my skills and make a good life.
