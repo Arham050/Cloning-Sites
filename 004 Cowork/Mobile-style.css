@@ -1,0 +1,613 @@
+@media screen and (min-width:1200px) {
+    .bar{
+        display: none;
+    }
+    .circle img{
+        position: absolute;
+        top: 37%;
+        left: 22%;
+        height: 130px;
+        z-index: -1;
+    }
+    .phone-circle{
+        display: none;
+    }
+    .image-phone{
+        display: none;
+    }
+    .phone-text-three{
+        display: none;
+    }
+    .icon-text-one i{
+        display: none;
+    }
+    .icon-text-two i{
+        display: none;
+    }
+    .icon-text-three i{
+        display: none;
+    }
+    .hero-sec-five-phone-image{
+        display: none;
+    }
+   .phone-footer-text{
+    display: none;
+   }
+    
+}
+
+/* media screen for mobiles */
+
+@media screen and (max-width: 480px) {
+    /* navbar */
+   .left-nav-logo{
+    padding: 10px 20px;
+   }
+   .right-nav-text a {
+    display: none;
+   }
+   .right-nav-btn{
+    display: none;
+   }
+   .bar{
+    margin-right: 20px;
+    background: black;
+    padding: 10px 20px;
+    border-radius: 40px;
+    color: white;
+    font-size: 28px;
+   }
+   /* first hero section */
+   .text-container{
+    margin-top: 180px;
+   }
+    .hero-sec-one-text h1{
+    font-size: 60px;
+    line-height: 70px;
+    width: 100%;  
+    margin-right: 4px;  
+    font-weight: 500;
+    text-align: center;
+    margin-top: 100px;
+    }
+    .hero-sec-one-text p{
+    font-size: 16px;
+    margin-right: 4px;  
+    font-weight: 300;
+    text-align: center; 
+    }
+    .first-hero-btn button{
+     position: relative;
+     left: 30%;
+     bottom: 60px;
+     margin-bottom: 20px;
+    }   
+    .circle{
+        display: none;
+    }
+    .phone-circle img{
+        position: relative;
+        bottom: 250px;
+        left: 150px;
+        height: 80px;
+        z-index: -1;
+    }
+    .hero-sec-image{
+        display: none;
+    }
+    .image-phone img {
+        margin-top: 120px;
+        width: 360px;
+        margin-left: 8px;
+        background-size: contain;
+        border-radius: 48px;
+    }
+
+    
+
+
+    /* hero section two */
+    .logo-sec-two{
+        margin-top: 100px;
+    }
+    .logo-sec-two-images{
+        display: flex;
+        flex-direction: column;
+        background-size: cover;      
+    }
+    .logo-sec-two-images img{
+        height: auto;
+        align-self: center;
+        width: 60%;
+        padding: 10px;
+    }
+    /* hero section three */
+
+    .middle-image{
+        display: none;
+    }
+    .left-text, .right-text h1{
+        display: none;
+    }
+    .phone-text-three h1{
+        font-size: 24px;
+        white-space: nowrap;
+        
+    }
+    .icon-text{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    
+    }
+    .icon-text p{
+        margin-bottom: 40px;
+        align-items: center;
+    }
+    .icons{
+        display: none;
+    }
+    .icon-text-one i{
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    .icon-text-two i{
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    .icon-text-three i{
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    .ball-phone-one{
+        background: #d3f985;
+        border-radius: 100px;
+        height: 40px;
+        width: 40px;
+        position: relative;
+        left: 47%;
+        bottom: 55px;
+        z-index: -1;
+        
+    }
+    .ball-phone-two{
+        background:#a6e8f6;
+        border-radius: 100px;
+        height: 40px;
+        width: 40px;
+        position: relative;
+        left: 47%;
+        bottom: 55px;
+        z-index: -1;
+    }
+    .ball-phone-three{
+        background: #fcbedc;
+        border-radius: 100px;
+        height: 40px;
+        width: 40px;
+        position: relative;
+        left: 47%;
+        bottom: 55px;
+        z-index: -1;
+    }
+    .phone-text-three h1{
+        display: flex;
+        justify-content: center;
+        font-size: 32px;
+        margin-right: 80px;
+    }
+    .phone-text-three h2{
+        display: flex;
+        justify-content: center;
+        font-size: 32px;
+    }
+    .middle-image-phone img{
+        height: 40px;
+        width: 90px;
+        border-radius: 900px;
+        position: relative;
+        left: 68%;
+        bottom: 75px;
+        background-size: contain;
+    }
+    
+
+
+    /* hero section four */
+
+    .hero-sec-four-text h2{
+        font-size: 26px;
+    }
+    .hero-sec-four-text h3{
+        font-size: 40px;
+        position: relative;
+        right: 20px;
+    }
+    .hero-sec-four-text p{
+        padding: 15px;
+        
+    }
+    .middle-image-two img{
+        height: 50px;
+        width: 130px;
+    }
+    .hero-sec-four-image img{
+        padding: 20px;
+        border-radius: 50px;
+    }
+    .play-btn{
+        display: none;
+    }
+   
+    .play-phone-btn{
+        position: absolute; /* Position relative to the image container */
+        top: 58%; /* Center vertically within the parent */
+        left: 50%; /* Center horizontally within the parent */
+        transform: translate(-50%, -50%); /* Shift to perfectly align center */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 2; /* Ensure above the image */
+    }
+    
+    .play-phone-box{
+        background: #2e2e2e;
+        height: 80px;
+        width: 90px;
+        border-radius: 14px; /* Make it a circle */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 3; /* Ensure it stays visible */
+    }
+    
+    .play-phone-btn i {
+        color: rgb(209, 209, 209);
+        font-size: 40px;
+        position: relative;
+        right: 60px;
+        z-index: 4; /* Icon is the topmost element */
+    }
+    /* hero section five */
+
+    .hero-sec-five{
+        display: flex;
+    }
+    .hero-sec-five-text h1{
+        all: unset; 
+        font-size: 16px;
+        display: block;
+        text-align: center;
+        font-weight: 400;
+    }
+    .hero-sec-five-text h2{
+        all: unset; 
+        font-size: 28px;
+        display: block;
+        text-align: center;
+        font-weight: 600;
+    }
+    
+    .percentages{
+        margin-top: 50px;
+    }
+    .percentage-row-one{
+        all: unset;
+        display: flex;
+        gap: 60px;
+        white-space: nowrap;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    .percentage-row-two{
+        all: unset;
+        display: flex;
+        gap: 95px;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    .hero-sec-five-image{
+            display: none;
+        }
+        .hero-sec-five-phone-image{
+            padding: 20px;
+        }
+    .hero-sec-five-phone-image img{
+        height: 100%;
+        width: 100%;
+        border-radius: 20px;
+        
+    }
+
+    /* hero section six */
+
+    .hero-sec-six-text h2{
+        text-align: center;
+        font-size: 28px;
+        margin-top: 10px;
+    }
+
+    .person-boxes-line-one{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .person-boxes-line-two{
+        display: flex;
+        flex-direction: column;
+    }
+    .person-box-one{
+        align-self: center;
+        height: 100%;
+        width: 80%; 
+        margin-bottom: 30px;
+    }
+    .person-box-one-text h5{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .person-box-two{
+        align-self: center;
+        height: 100%;
+        width: 80%; 
+        margin-bottom: 30px;
+    }
+    .person-box-two-text h5{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .person-box-three-text h5{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .person-box-three{
+        align-self: center;
+        height: 100%;
+        width: 80%; 
+        margin-bottom: 30px;
+    }
+    .person-box-four-text h5{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .person-box-four{
+        align-self: center;
+        height: 100%;
+        width: 80%; 
+        margin-bottom: 30px;
+    }
+    .person-box-five-text h5{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .person-box-five{
+        align-self: center;
+        height: 100%;
+        width: 80%; 
+        margin-bottom: 30px;
+    }
+    
+    /* hero section seven */
+
+
+    .hero-container-seven{
+        margin-bottom: 600px;
+    }
+    .hero-sec-seven{
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-sec-seven-text{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 0;
+    }
+    .icon i{
+        display: none;
+    }
+    .left-side h1{
+        text-align: center;
+        width: 55vh;
+    }
+    .left-side h2{
+        text-align: center;
+        width: 55vh;
+        font-size: 30px;
+    }
+    .left-side p{
+        text-align: center;
+        width: 55vh;
+        font-size: 16px;
+        padding: 10px;
+    }
+    .right-side h1{
+        text-align: left;
+        width: 55vh;
+        font-size: 20px;
+        padding: 0 0 0 26px ;
+        font-weight: 500;
+    }
+    .right-side p{
+        text-align: left;
+        width: 55vh;
+        font-size: 16px;
+        padding: 0 0 0 22px ;
+        font-weight: 300;
+    }
+
+    /* hero section eight */
+
+
+    .hero-sec-eight-text h1{
+        font-size: 50px;
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 30px;
+    }
+    .hero-sec-eight-text h3{
+       all: unset;
+       position: relative;
+        top: 40px;
+        font-size: 40px;
+        font-weight: 500;
+    
+    }
+    .hero-sec-eight-text h2{
+        all: unset;
+        display: block;
+        position: relative;
+        top: 40px;
+        font-size: 60px;
+        font-weight: 500;
+    }
+    .para-box{
+        all: unset;
+        display: block;
+        position: relative;
+        top: 40px;
+        font-weight: 500;
+        margin-top: 40px;
+        padding: 10px;
+        margin-bottom: 40px ;
+    }
+    .middle-image-three{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }   
+    .middle-image-three img{
+        border-radius: 100px;
+        overflow: hidden;
+        top: -470px;
+        left: 50px;
+        width: 140px;
+        height: 50px;
+        position: relative;     
+    }
+    /* hero section nine */
+    .hero-sec-nine-text h3{
+        all: unset;
+        font-size: 30px;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+    }
+    .hero-sec-nine-text h4{
+        all: unset;
+        font-size: 30px;
+        font-weight: 600;
+        margin-left: 100px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 6px;
+        
+    }
+    
+
+    .middle-image-four{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }  
+    .middle-image-four img{
+        border-radius: 100px;
+        overflow: hidden;
+        top: -200px;
+        left: -100px;
+        width: 130px;
+        height: 40px;
+        position: relative;     
+    }
+   /* hero section ten */
+   .hero-sec-ten-images{
+    display: flex;
+    flex-direction: column;
+   }
+   .product-one {
+    align-self: center;
+    max-width: 100%;
+    padding: 30px;
+    margin-bottom: 60px;
+    object-fit: initial;
+  }
+  .product-one > * {
+    max-width: 100%;
+  }
+   
+  .product-two {
+    align-self: center;
+    max-width: 100%;
+    padding: 30px;
+    margin-bottom: 60px;
+    object-fit: initial;
+  }
+  .product-two > * {
+    max-width: 100%;
+  }
+
+  .product-three {
+    align-self: center;
+    max-width: 100%;
+    padding: 30px;
+    margin-bottom: 60px;
+    object-fit: initial;
+  }
+  .product-three > * {
+    max-width: 100%;
+  }
+   /*footer  */
+   .footer-container{
+    padding: 20px;
+   }
+   .footer-box{
+    display: flex;
+    height: 1420px;
+   }
+   .left-footer-text h1{
+    text-align: center;
+    margin-left: 46px;
+   }
+   .left-footer-text p{
+    margin-left: 46px;
+    text-align: center;
+   }
+   .left-footer-text input{
+    margin-left: 46px;
+    width: 130px;
+   }
+   .subscribe-btn{
+    all: unset;
+    position: relative;
+    left: 60px;
+    bottom: 20px;
+}
+   
+    .phone-footer-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-left: 45px;
+        margin-top: 50px;
+    }
+   
+
+   .right-side-footer{
+    display: none;
+   }
+
+   .footer-last-line{
+    white-space: nowrap;
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+   }
+
+   .terms{
+    margin-top: 20px;
+    font-size: 14px;
+   }
+
+}
