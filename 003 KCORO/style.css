@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+body{
+    background: #2d0070;
+    background-image: url(Asssets/bg-grad.svg);
+    background-size: cover;
+}
+nav{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.left-nav-text{
+    color: white;
+}
+.right-nav-text{
+    display: flex;
+    gap: 100px;
+}
+.right-nav-text a {
+    color: white;
+    text-decoration: none; /* Remove default underline */
+    position: relative;
+    font-size: 18px;
+}
+
+.right-nav-text a::after {
+    content: ''; /* Create pseudo-element */
+    position: absolute;
+    left: 0;
+    bottom: -3px; /* Position underline below text */
+    width: 0; /* Start with no underline */
+    height: 2px; /* Set underline thickness */
+    background-color: white; /* Underline color */
+    transition: width 0.3s ease; /* Smooth transition */
+}
+
+.right-nav-text a:hover::after {
+    width: 100%; /* Expand underline to full width */
+}
+/* hero section one */
+main{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.first-hero-container {
+    display: flex;
+    align-items: center; /* Vertically center */
+    justify-content: center; /* Horizontally center */
+    height: 80vh; /* Full viewport height */
+    margin-left: 40px;
+    
+}
+
+.hero-sec-one{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    gap: 300px;
+}
+.hero-text-one h1{
+    color: white;
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 90px;
+    margin-bottom: 30px;
+}
+.hero-text-one p{
+    color: white;
+    font-size: 1rem;
+    font-weight: 100;
+    line-height: 20px;
+}
+.hero-image-one img{
+    height: 42rem;
+
+}
+.hero-btn-one{
+    display: flex;
+    gap: 30px;
+    
+}
+button{
+    margin-top: 35px;
+    padding: 15px 70px;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    border: 1px solid #9F3EE7;
+    background: none;
+    font-size: 18px;
+    transition: all 0.5s ease;
+}   
+button:hover{
+    background-color: #9F3EE7;
+    cursor: pointer; 
+}
+/* hero section two */
+.hero-text-two p{
+    color: white;
+    font-weight: 500;
+    padding: 20px 20px 20px 0;
+    font-size: 20px;
+}
+.box{
+    background-color: #37117f;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    align-items: center;
+}
+.box img{
+    height: 30px;
+}
+.box .first-image img{
+    height: 80px;
+}
+
+/* hero section three */
+
+.third-hero-container {
+    display: flex;
+    align-items: center; /* Vertically center */
+    justify-content: center; /* Horizontally center */
+    height: 80vh; /* Full viewport height */
+    margin-left: 40px;
+    
+}
+
+.hero-sec-three{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+.hero-text-three h1{
+    color: white;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 90px;
+    margin-bottom: 30px;
+}
+.hero-text-three h5{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.hero-text-three p{
+    color: white;
+    font-size: 1rem;
+    font-weight: 100;
+    line-height: 20px;
+}
+.hero-image-three img{
+    height: 42rem;
+
+}
+
+/* hero section four */
+
+.forth-hero-container {
+    display: flex;
+    align-items: center; /* Vertically center */
+    justify-content: center; /* Horizontally center */
+    height: 80vh; /* Full viewport height */
+    margin-left: 40px;
+}
+
+.hero-sec-four{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+.hero-text-four h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+.hero-text-four h5{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.hero-text-four p{
+    color: white;
+    font-size: 1rem;
+    font-weight: 100;
+    line-height: 20px;
+}
+.hero-image-four img{
+    height: 42rem;
+
+}
+
+/* hero section five */
+
+.fifth-hero-container {
+    display: flex; /* Enable flexbox on the container */
+    justify-content: center; /* Horizontally center the content */
+    flex-direction: column; /* Stack elements vertically */
+    width: 100%; /* Full width */
+    background-color: #2d0070; /* Optional: Background color for visibility */
+    margin-bottom: 100px;
+}
+.hero-text-five h1{
+    font-size: 5rem; /* Adjust text size */
+    color: #ffffff; /* Text color */
+    margin-top: 20px;; /* Remove default margins to prevent misalignment */
+    text-align: center; /* Center text within the container */
+}
+
+.hero-text-five h5 {
+    font-size: 2rem; /* Adjust text size */
+    color: #ffffff; /* Text color */
+    margin: 0; /* Remove default margins to prevent misalignment */
+    text-align: center; /* Center text within the container */
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    position: relative; /* Positioning context for child elements */
+}
+
+.box-one, .box-two, .box-three {
+    background-color: #3e057f;
+    height: 300px;
+    width: 400px;
+    border-radius: 30px;
+    position: relative; /* Set each box as a positioning context */
+    transition: transform 0.3s ease;
+}
+
+.boxes img {
+    position: absolute; /* Position images relative to their boxes */
+    top: -50px; /* Adjust so images are above the boxes */
+    left: 50%; /* Center horizontally relative to each box */
+    transform: translateX(-50%); /* Fine-tune centering */
+    height: 130px;
+    z-index: 1; /* Ensure images are above the boxes */
+    filter: grayscale(100%);
+}
+.boxes h1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+}
+.boxes h4{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 130px;
+    padding: 25px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-weight: 300;
+}
+.boxes > div:hover {
+    transform: translateY(-20px);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+
+}
+main{
+    margin-bottom: 100px;
+}
+footer{
+    margin-bottom: 100px;
+}
+.big-box-text{
+    background: linear-gradient(135deg, #4b0082, #9b5fff);  
+    height: 650px;
+    border-radius: 30px;
+}
+.big-box-text h1{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 50px;
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+.big-box-text h4{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    padding: 40px;
+}
+.big-box-text button{
+    position: relative;
+    left: 40%;
+    color: white;
+    border: 1px solid #9b5fff;
+    background: #3e057f;
+    border: none;
+}
+.big-box-text button:hover{
+    background: #ffffff;
+    color: #3e057f;
+}
+/* footer */
+.footer-text{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 200px;
+}
+.line-one h5 , .line-two h5 , .line-three h5{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.line-one a{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-decoration: none;
+    font-weight: 200;
+    margin-top: 10px;
+}
+.line-two a{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-decoration: none;
+    font-weight: 200;
+    margin-top: 10px;
+}
+.line-three a{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-decoration: none;
+    font-weight: 200;
+    margin-top: 10px;
+    
+}
+.line-one a:hover{
+    text-decoration: underline;
+}
+.line-two a:hover{
+    text-decoration: underline;
+}
+.line-three a:hover{
+    text-decoration: underline;
+}
+.news-letter h1{
+    color: white;
+    font-weight: 500;
+}
+input{
+    margin-top: 35px;
+    padding: 15px 70px;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    border: 1px solid #9F3EE7;
+    background: none;
+    font-size: 18px;
+    transition: all 0.5s ease;
+}
+input::placeholder {
+    color: whitesmoke;
+    opacity: 0.7;
+}
+  
+.email-btn{
+    padding: 15px 70px;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    background: #2d0070;
+    background: none;
+    font-size: 18px;
+    transition: all 0.5s ease;
+}
